@@ -9,7 +9,7 @@ this_file = os.path.dirname(__file__)
 setup(
     name="correlation_package",
     version="0.1",
-    zip_safe = False,
+    zip_safe = True,
     description="Correlation layer from FlowNetC",
     url="https://github.com/jbarker-nvidia/pytorch-correlation",
     author="Jon Barker",
